@@ -1,4 +1,4 @@
-## Making visualization of Python projects on Github
+## Making visualizations of Python projects on Github
 
 import requests
 import pygal
