@@ -3,7 +3,7 @@ import requests
 # Make an API call and store the response
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
 r = requests.get(url)
-print("Status code:", r.status_code) # The response object has an attribute called status_code, tells whether the request is successful- code 200.
+print("Status code:", r.status_code) # The response object has an attribute called status_code, tells whether the request is successful- code 200 tells it is successful.
 
 # Store API response in a variable.
 response_dict = r.json() # Use json() method to convert the information to a Python dictionary.
